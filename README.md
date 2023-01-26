@@ -20,14 +20,16 @@ Check your systems maximun column with the pd.options.display.max_columun statem
 Increase the maximum number of rows to display the entire DataFrame.
 
 ## PROGRAM:
-#DEVELOPED BY: vasanthamukilan.M
-#REGISTER NO: 22001986
+```
+#DEVELOPED BY: Thirukaalathessvarar S
+#REGISTER NO: 22004529
 import pandas as pd
 df = pd.read_csv('nba.csv')
 print(df.head(10))
 print(df.tail())
 print("Column",len(df.axes[0]))
 print("Row",len(df.axes[1]))
+```
 
 ## OUTPUT:
 ![output](csv1.png)
